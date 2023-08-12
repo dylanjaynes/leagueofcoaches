@@ -7,20 +7,69 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 
 /*   STEP 2   */
 export const homepageText = `
-  <p>This is the League of COACHES! Started in 2020, this is a premier destination for people who kinda care about fantasy football. Welcome the league's website!</p>
-  <h4>Current Title Odds</h4>
-  <p>I Have A Chubb Again	+1140</p>
-  <p>TitanTravis	+550</p>
-  <p>TheRealCoach	+605</p>
-  <p>roycecrowe	+745</p>
-  <p>josephhill	+755</p>
-  <p>jmisuraca	+865</p>
-  <p>Coachcommish	+930</p>
-  <p>CymbaltaOverdose	+1000</p>
-  <p>Flying Platapi	+1030</p>
-  <p>BrocknessMonsters	+1515</p>
-  <p>griffinj	+1710</p>
-  <p>roxtops	+99900</p>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content {
+    width: 100%;
+    padding: 20px;
+    overflow: auto;
+    height: auto;
+  }
+
+  .iframes-container {
+    display: flex;
+    width: 100%;
+  }
+
+  .iframe {
+    width: 50%;
+    height: 500px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .second-iframe {
+    width: 50%;
+    height: 500px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    align: right
+  }
+
+  @media (max-width: 768px) {
+    .iframes-container {
+      flex-direction: column; /* Stack iframes on mobile */
+    }
+
+    .iframe, .second-iframe {
+      width: 100%;
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="content">
+    <p>this is where I'll diary my thoughts, perhaps on the season perhaps not. also, there's some odds to win below, isn't it funny to think that Roxtops thinks he'll win the leauge one day? As if buddy, back of the line (where you almost already are) and no that's definitely not good math, i mean it must be with Roxtops near the bottom but i certainly am not that low. no way pal.</p>
+  </div>
+  
+  <div class="iframes-container">
+    <iframe class="iframe" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRO566oTXuiwiEi9lVK87FYbs2Ad49YfXESnVi9QfLQLSuA4aVmAyyzftG_0k7phkTAIvhPttdr-vEU/pubhtml?gid=973296563&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+    <iframe class="second-iframe" src="https://docs.google.com/forms/d/e/1FAIpQLSdnEla7e_0rWznISjwcpYhyVy5SA1Qj_zK2PcxEPmdYfTOQSg/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0" align="center">Loading…</iframe>
+  </div>
+</div>
+
+</body>
+</html>
  
 `;
 
