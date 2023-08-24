@@ -43,6 +43,13 @@ export const homepageText = `
     margin-left: 20px;
     align: right
   }
+  .third-iframe {
+    width: 50%;
+    height: 500px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 
   @media (max-width: 768px) {
     .iframes-container {
@@ -59,12 +66,13 @@ export const homepageText = `
 
 <div class="container">
   <div class="content">
-    <p>this is where I'll diary my thoughts, perhaps on the season perhaps not. also, there's some odds to win below, isn't it funny to think that Roxtops thinks he'll win the leauge one day? As if buddy, back of the line (where you almost already are) and no that's definitely not good math, i mean it must be with Roxtops near the bottom but i certainly am not that low. no way pal.</p>
+    <p>Kickoff is a' comin...</p>
   </div>
   
   <div class="iframes-container">
     <iframe class="iframe" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRO566oTXuiwiEi9lVK87FYbs2Ad49YfXESnVi9QfLQLSuA4aVmAyyzftG_0k7phkTAIvhPttdr-vEU/pubhtml?gid=973296563&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
     <iframe class="second-iframe" src="https://docs.google.com/forms/d/e/1FAIpQLSdnEla7e_0rWznISjwcpYhyVy5SA1Qj_zK2PcxEPmdYfTOQSg/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0" align="center">Loading…</iframe>
+    <iframe class="third-iframe" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRMTh4mss7npjjjZ6DsRp3hmGHQJqWINRTK-sHbtFiAHtMTiOk0Hf-tPvH6kpgqSB4PAMDzEGdX8F1b/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" frameborder="0" marginheight="0" marginwidth="0" align="center"></iframe>
   </div>
 </div>
 
