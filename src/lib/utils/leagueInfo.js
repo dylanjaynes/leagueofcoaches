@@ -72,6 +72,8 @@ export const homepageText = `
   <div class="iframes-container">
     <iframe class="iframe" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRO566oTXuiwiEi9lVK87FYbs2Ad49YfXESnVi9QfLQLSuA4aVmAyyzftG_0k7phkTAIvhPttdr-vEU/pubhtml?gid=973296563&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
     <iframe class="second-iframe" src="https://docs.google.com/forms/d/e/1FAIpQLSdnEla7e_0rWznISjwcpYhyVy5SA1Qj_zK2PcxEPmdYfTOQSg/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0" align="center">Loading…</iframe>
+    </div>
+  <div>
     <iframe class="third-iframe" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRMTh4mss7npjjjZ6DsRp3hmGHQJqWINRTK-sHbtFiAHtMTiOk0Hf-tPvH6kpgqSB4PAMDzEGdX8F1b/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" frameborder="0" marginheight="0" marginwidth="0" align="center"></iframe>
   </div>
 </div>
