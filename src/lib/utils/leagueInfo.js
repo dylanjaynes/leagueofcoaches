@@ -44,7 +44,7 @@ export const homepageText = `
     align: right
   }
   .third-iframe {
-    width: 50%;
+    width: 100%;
     height: 150px;
     margin-top: 20px;
     margin-bottom: 20px;
